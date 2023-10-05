@@ -31,7 +31,7 @@ function fetchAircraftData() {
             map.addLayer(aircraftMarkers);
 
             // Refresh the data every few seconds
-            setTimeout(fetchAircraftData, 5000); // Update every 5 seconds
+            setTimeout(fetchAircraftData, 3600000000); // Update every 5 seconds
         })
         .catch(error => {
             console.error('Error fetching data:', error);
