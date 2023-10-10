@@ -28,7 +28,7 @@ function fetchAndDisplayFlights() {
               { icon: customIcon } // Use the custom icon
             )
               .addTo(map)
-              .bindPopup(`Flight: ${flight.callsign}<br>Altitude: ${flight.geography.altitude} feet`);
+              .bindPopup(`Flight: ${flight.flight.icaoNumber}<br>Altitude: ${flight.geography.altitude} feet`);
           }
         });
       })
