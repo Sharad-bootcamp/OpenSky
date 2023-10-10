@@ -1,42 +1,48 @@
-// Initialize the map
-var map = L.map('map').setView([0, 0], 2); // Set the initial view
 
-// Add a base layer (e.g., OpenStreetMap)
+const apiKey = '8927db-6d3716'; // Replace with your Aviation Edge API key
+const map = L.map('map').setView([-34.000233, 138.209152], 7); // Set initial map center and zoom level
+
+// Add a tile layer to the map
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
-// Create a marker cluster group for aircraft markers
-var aircraftMarkers = L.markerClusterGroup();
+const customIcon = L.icon({
+    iconUrl: 'Images/airplane.png', // Replace with the path to your custom icon image
+    iconSize: [30, 30], // Set the icon size (width, height) in pixels
+    iconAnchor: [16, 16], // Set the anchor point of the icon
+  });
 
-// Function to fetch aircraft data from OpenSky API
-function fetchAircraftData() {
-    fetch('https://opensky-network.org/api/states/all')
-        .then(response => response.json())
-        .then(data => {
-            // Loop through aircraft data and create markers
-            data.states.forEach(function (aircraft) {
-                var lat = aircraft[6];
-                var lon = aircraft[5];
-                var callsign = aircraft[1];
+// Function to fetch and display flight data on the map
+function fetchAndDisplayFlights() {
+    const apiUrl = `https://aviation-edge.com/v2/public/flights?key=${apiKey}`;
 
-                if (lat && lon && callsign) {
-                    // Create a marker for each aircraft
-                    var marker = L.marker([lat, lon]).bindPopup(callsign);
-                    aircraftMarkers.addLayer(marker);
-                }
-            });
-
-            // Add the aircraft markers to the map
-            map.addLayer(aircraftMarkers);
-
-            // Refresh the data every few seconds
-            setTimeout(fetchAircraftData, 3600000000); // Update every 5 seconds
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
+    fetch(apiUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        // Loop through the flight data and add markers with custom icons to the map
+        data.forEach((flight) => {
+          if (flight.geography && flight.geography.latitude && flight.geography.longitude) {
+            const marker = L.marker(
+              [flight.geography.latitude, flight.geography.longitude],
+              { icon: customIcon } // Use the custom icon
+            )
+              .addTo(map)
+              .bindPopup(`Flight: ${flight.flight.icaoNumber}<br>Altitude: ${flight.geography.altitude} feet`);
+          }
         });
+      })
+      .catch((error) => {
+        console.error('Error fetching flight data:', error);
+      });
 }
 
-// Call the fetchAircraftData function to start fetching and displaying data
-fetchAircraftData();
+  // Call the function to fetch and display flights
+  fetchAndDisplayFlights();
+
+
+
+
+
+
+
