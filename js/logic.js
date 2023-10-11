@@ -8,9 +8,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 const customIcon = L.icon({
-    iconUrl: 'Images/airplane.png', // Replace with the path to your custom icon image
-    iconSize: [30, 30], // Set the icon size (width, height) in pixels
-    iconAnchor: [16, 16], // Set the anchor point of the icon
+    iconUrl: 'Images/airplane_red.png', // Replace with the path to your custom icon image
+    iconSize: [18, 18], // Set the icon size (width, height) in pixels
+    iconAnchor: [12, 12], // Set the anchor point of the icon
   });
 
 // Function to fetch and display flight data on the map
@@ -28,7 +28,7 @@ function fetchAndDisplayFlights() {
               { icon: customIcon } // Use the custom icon
             )
               .addTo(map)
-              .bindPopup(`Flight: ${flight.flight.icaoNumber}<br>Altitude: ${flight.geography.altitude} feet`);
+              .bindPopup(`Flight Number: ${flight.flight.icaoNumber}<hr>Altitude: ${flight.geography.altitude} feet<br>Status: ${flight.status}`);
           }
         });
       })
