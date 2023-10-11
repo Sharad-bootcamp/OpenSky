@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenSky API</title>
+  <style>
+      p { text-align : center ;} 
+      div {text-align : center ;}
+      input{text-align : center ;}
+      
+    </style>
+
+  
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/aviationedge.css">
+</head>  
+
+<body>
+  
+  
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-7 col-md-auto mx-auto">
+        
+        <h1>Aviation Edge</h1>
+        <br>
+        <h4>Find your Flights</h4>
+      </div>
+    </div>
+  </table>
+   
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+    <div>
+    <h5>Settings:</h5>
+          <label for="refresh-rate">Choose a Refresh Rate:</label> 
+          
+          <select name="refresh-rate" id="refresh-rate"> 
+        <option value="Normal Distribution">10000 Hz</option> 
+        <option value="Normal Distribution">20000 Hz</option> 
+        <option value="Normal Distribution">30000 Hz</option> 
+        <option value="Normal Distribution">40000 Hz</option> 
+            </select>
+          
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div><section class="slider_section ">
+          <div class="container ">
+            <div class="row">
+              <div class="col-lg-7 col-md-8 mx-auto">
+                <div class="detail-box">
+                  <h1>
+                    Aviation Edge <br>
+                    API
+                  </h1>
+                  <p>
+                    Find and track your flights in Australia !
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="find_container ">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <form>
+                      <div class="form-row ">
+                        <div class="form-group col-lg-3">
+                          <input type="text" class="form-control" id="inputPatientName" placeholder="Keywords">
+                        </div>
+                        <div class="form-group col-lg-3">
+                          <select name="" class="form-control wide" id="inputDoctorName">
+                            <option value="Normal distribution ">All Locations</option>
+                            <option value="Normal distribution ">Location 2 </option>
+                            <option value="Normal distribution ">Location 3 </option>
+                          </select>
+                        </div>
+                        <div class="form-group col-lg-3">
+                          <select name="" class="form-control wide" id="inputDepartmentName">
+                            <option value="Normal distribution ">Airlines </option>
+                            <option value="Normal distribution ">Airline 1</option>
+                            <option value="Normal distribution ">Airline 2</option>
+                            <option value="Normal distribution ">Airline 3</option>
+                            <option value="Normal distribution ">Airline 4</option>
+                            <option value="Normal distribution ">Airline 5</option>
+                            <option value="Normal distribution ">Airline 6</option>
+                            <option value="Normal distribution ">Airline 7</option>
+                            <option value="Normal distribution ">Airline 8</option>
+                            <option value="Normal distribution ">Airline 9</option>
+                            <option value="Normal distribution ">Airline 10</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-lg-3">
+                          <div class="btn-box">
+                            <button type="submit" class="btn ">Search</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <ul class="job_check_list">
+                  <li class=" ">
+                    <input id="checkbox_qu_01" type="checkbox" class="styled-checkbox">
+                    <label for="checkbox_qu_01">
+                      Day Flights
+                    </label>
+                  </li>
+                  <li class=" ">
+                    <input id="checkbox_qu_02" type="checkbox" class="styled-checkbox">
+                    <label for="checkbox_qu_02">
+                      Night Flights
+                    </label>
+                  </li>
+                  <li class=" ">
+                    <input id="checkbox_qu_03" type="checkbox" class="styled-checkbox">
+                    <label for="checkbox_qu_03">
+                      All Flights
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        
+        <label style="margin: 0 auto; width: 50%; text-align: right;" for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" placeholder="Aircraft No.">
+      
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        
+        <div class="panel panel-default">
+          <div class="panel-heading-custom">
+            <h3 style="margin: 0 auto; width: 50%; text-align: left;" class="panel-title"></h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      
+
+
+  <script src="logic.js"></script>
+  
+  <script src="samples.json"></script>
+
+
+</body>
+
+</html>
