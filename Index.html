@@ -11,11 +11,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
 </head>
 <body>
-    <!-- Add Aviation Edge Logo -->
-    <img class="logo" src="Images/Av_Edge.png" alt="Logo">
+    <nav>
+        <!-- Add Aviation Edge Logo -->
+        <img class="logo" src="Images/Av_Edge.png" alt="Logo">
 
-    <!-- Add page heading -->
-    <h2 class="heading">Centered Over Lower South Australia</h2>
+        <!-- Add page heading -->
+        <h2 id="heading1">Flight Tracking Map</h2>
+        <h3 id="heading2">Default Landing Map Centered Over Lower South Australia</h3>
+    </nav>
+
 
     <Main>
         <article id="article1">
@@ -28,10 +32,11 @@
                 <select id="airlineDropdown"></select>
             </div>
         </aside>
-        <article id="article2">
 
-        </article>
     </Main>
+    <article id="article2">
+        <p>Table to sit under map</p>
+    </article>
     <!-- Include your JavaScript code here -->
     <script src="js/logic.js"></script>
 </body>

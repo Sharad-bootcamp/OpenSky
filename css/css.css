@@ -22,14 +22,10 @@
 	object-fit: cover;
 	object-position: 50% 0%;
     max-width:100%; 
-    height:auto
+    max-height:100%;
 }
 main {
-	display: block;
-	overflow: auto;
-	background-image: url(../Images/Background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+	display:block;
 	overflow: auto;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
@@ -37,12 +33,33 @@ main {
 	margin-right: auto;
 }
 
-.heading {
+body {
+	display:block;
+	overflow: auto;
+	background-image: url(../Images/Background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#heading1 {
 	float: none;
 	text-align: center;
-	font-family: "Lucida Handwriting",Cursive;
+	font-family: Cursive;
 	font-size: 3em;
 	text-shadow: 1px 5px #ADADAC;
+	margin-bottom: 20px;
+
+}
+
+#heading2 {
+	float: none;
+	text-align: center;
+	font-family: Cursive;
+	font-size: 1em;
 	margin: auto;
 }
 
@@ -64,4 +81,17 @@ aside {
 	text-align: left;
 	overflow: auto;
     margin-right: 20px;
+}
+#article2 {
+	float: left;
+	width: auto;
+	text-align: left;
+	overflow: auto;
+	margin-top: 20px;
+    margin-left: 20px;
+	color: white;
+}
+
+nav {
+	background-color: white;
 }
