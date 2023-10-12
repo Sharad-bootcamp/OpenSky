@@ -1,0 +1,1735 @@
+[
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "14",
+      "delay": 19,
+      "scheduledTime": "2023-09-01t09:30:00.000",
+      "estimatedTime": "2023-09-01t09:30:00.000",
+      "actualTime": "2023-09-01t09:49:00.000",
+      "estimatedRunway": "2023-09-01t09:49:00.000",
+      "actualRunway": "2023-09-01t09:49:00.000"
+    },
+    "arrival": {
+      "iataCode": "ntl",
+      "icaoCode": "ywlm",
+      "delay": 2,
+      "scheduledTime": "2023-09-01t12:00:00.000",
+      "estimatedTime": "2023-09-01t12:01:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1968",
+      "iataNumber": "qf1968",
+      "icaoNumber": "qfa1968"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "26",
+      "delay": 29,
+      "scheduledTime": "2023-09-01t09:30:00.000",
+      "estimatedTime": "2023-09-01t10:04:00.000",
+      "actualTime": "2023-09-01t09:59:00.000",
+      "estimatedRunway": "2023-09-01t09:59:00.000",
+      "actualRunway": "2023-09-01t09:59:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "8",
+      "delay": 7,
+      "scheduledTime": "2023-09-01t11:20:00.000",
+      "estimatedTime": "2023-09-01t11:27:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "678",
+      "iataNumber": "qf678",
+      "icaoNumber": "qfa678"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 6,
+      "scheduledTime": "2023-09-01t10:55:00.000",
+      "estimatedTime": "2023-09-01t11:01:00.000"
+    },
+    "arrival": {
+      "iataCode": "plo",
+      "icaoCode": "yplc",
+      "scheduledTime": "2023-09-01t11:50:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2269",
+      "iataNumber": "qf2269",
+      "icaoNumber": "qfa2269"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "24",
+      "delay": 17,
+      "scheduledTime": "2023-09-01t11:00:00.000",
+      "estimatedTime": "2023-09-01t11:00:00.000",
+      "actualTime": "2023-09-01t11:16:00.000",
+      "estimatedRunway": "2023-09-01t11:16:00.000",
+      "actualRunway": "2023-09-01t11:16:00.000"
+    },
+    "arrival": {
+      "iataCode": "bne",
+      "icaoCode": "ybbn",
+      "terminal": "d",
+      "baggage": "d01",
+      "gate": "27",
+      "scheduledTime": "2023-09-01t13:55:00.000",
+      "estimatedTime": "2023-09-01t13:48:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1932",
+      "iataNumber": "qf1932",
+      "icaoNumber": "qfa1932"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "23",
+      "delay": 38,
+      "scheduledTime": "2023-09-01t11:10:00.000",
+      "estimatedTime": "2023-09-01t11:25:00.000",
+      "actualTime": "2023-09-01t11:48:00.000",
+      "estimatedRunway": "2023-09-01t11:48:00.000",
+      "actualRunway": "2023-09-01t11:48:00.000"
+    },
+    "arrival": {
+      "iataCode": "syd",
+      "icaoCode": "yssy",
+      "terminal": "3",
+      "baggage": "qfr",
+      "gate": "10",
+      "delay": 18,
+      "scheduledTime": "2023-09-01t13:30:00.000",
+      "estimatedTime": "2023-09-01t13:48:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "738",
+      "iataNumber": "qf738",
+      "icaoNumber": "qfa738"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 6,
+      "scheduledTime": "2023-09-01t11:15:00.000",
+      "estimatedTime": "2023-09-01t11:21:00.000"
+    },
+    "arrival": {
+      "iataCode": "abx",
+      "icaoCode": "ymay",
+      "scheduledTime": "2023-09-01t13:40:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2218",
+      "iataNumber": "qf2218",
+      "icaoNumber": "qfa2218"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "26",
+      "delay": 16,
+      "scheduledTime": "2023-09-01t11:20:00.000",
+      "estimatedTime": "2023-09-01t11:20:00.000",
+      "actualTime": "2023-09-01t11:36:00.000",
+      "estimatedRunway": "2023-09-01t11:36:00.000",
+      "actualRunway": "2023-09-01t11:36:00.000"
+    },
+    "arrival": {
+      "iataCode": "cbr",
+      "icaoCode": "yscb",
+      "gate": "11",
+      "delay": 2,
+      "scheduledTime": "2023-09-01t13:25:00.000",
+      "estimatedTime": "2023-09-01t13:26:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1974",
+      "iataNumber": "qf1974",
+      "icaoNumber": "qfa1974"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "16",
+      "delay": 39,
+      "scheduledTime": "2023-09-01t11:30:00.000",
+      "estimatedTime": "2023-09-01t11:40:00.000",
+      "actualTime": "2023-09-01t12:09:00.000",
+      "estimatedRunway": "2023-09-01t12:09:00.000",
+      "actualRunway": "2023-09-01t12:09:00.000"
+    },
+    "arrival": {
+      "iataCode": "per",
+      "icaoCode": "ypph",
+      "terminal": "3",
+      "gate": "17",
+      "delay": 14,
+      "scheduledTime": "2023-09-01t13:25:00.000",
+      "estimatedTime": "2023-09-01t13:39:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "885",
+      "iataNumber": "qf885",
+      "icaoNumber": "qfa885"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "25",
+      "delay": 11,
+      "scheduledTime": "2023-09-01t11:35:00.000",
+      "estimatedTime": "2023-09-01t11:40:00.000",
+      "actualTime": "2023-09-01t11:46:00.000",
+      "estimatedRunway": "2023-09-01t11:46:00.000",
+      "actualRunway": "2023-09-01t11:46:00.000"
+    },
+    "arrival": {
+      "iataCode": "tsv",
+      "icaoCode": "ybtl",
+      "scheduledTime": "2023-09-01t14:50:00.000",
+      "estimatedTime": "2023-09-01t14:39:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1986",
+      "iataNumber": "qf1986",
+      "icaoNumber": "qfa1986"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "24",
+      "delay": 24,
+      "scheduledTime": "2023-09-01t12:05:00.000",
+      "estimatedTime": "2023-09-01t12:14:00.000",
+      "actualTime": "2023-09-01t12:29:00.000",
+      "estimatedRunway": "2023-09-01t12:29:00.000",
+      "actualRunway": "2023-09-01t12:29:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "23",
+      "delay": 2,
+      "scheduledTime": "2023-09-01t13:55:00.000",
+      "estimatedTime": "2023-09-01t13:56:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "682",
+      "iataNumber": "qf682",
+      "icaoNumber": "qfa682"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "26",
+      "delay": 14,
+      "scheduledTime": "2023-09-01t12:55:00.000",
+      "estimatedTime": "2023-09-01t12:56:00.000",
+      "actualTime": "2023-09-01t13:08:00.000",
+      "estimatedRunway": "2023-09-01t13:08:00.000",
+      "actualRunway": "2023-09-01t13:08:00.000"
+    },
+    "arrival": {
+      "iataCode": "bne",
+      "icaoCode": "ybbn",
+      "terminal": "d",
+      "baggage": "d01",
+      "gate": "17",
+      "scheduledTime": "2023-09-01t15:50:00.000",
+      "estimatedTime": "2023-09-01t15:41:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1934",
+      "iataNumber": "qf1934",
+      "icaoNumber": "qfa1934"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 3,
+      "scheduledTime": "2023-09-01t13:30:00.000",
+      "estimatedTime": "2023-09-01t13:33:00.000"
+    },
+    "arrival": {
+      "iataCode": "plo",
+      "icaoCode": "yplc",
+      "scheduledTime": "2023-09-01t14:25:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2271",
+      "iataNumber": "qf2271",
+      "icaoNumber": "qfa2271"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "22",
+      "delay": 3,
+      "scheduledTime": "2023-09-01t13:40:00.000",
+      "estimatedTime": "2023-09-01t13:40:00.000",
+      "actualTime": "2023-09-01t13:42:00.000",
+      "estimatedRunway": "2023-09-01t13:42:00.000",
+      "actualRunway": "2023-09-01t13:42:00.000"
+    },
+    "arrival": {
+      "iataCode": "drw",
+      "icaoCode": "ypdn",
+      "baggage": "2",
+      "scheduledTime": "2023-09-01t17:25:00.000",
+      "estimatedTime": "2023-09-01t17:08:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1952",
+      "iataNumber": "qf1952",
+      "icaoNumber": "qfa1952"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 10,
+      "scheduledTime": "2023-09-01t13:45:00.000",
+      "estimatedTime": "2023-09-01t13:55:00.000"
+    },
+    "arrival": {
+      "iataCode": "kgc",
+      "icaoCode": "yksc",
+      "scheduledTime": "2023-09-01t14:25:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2144",
+      "iataNumber": "qf2144",
+      "icaoNumber": "qfa2144"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "20",
+      "delay": 22,
+      "scheduledTime": "2023-09-01t13:45:00.000",
+      "estimatedTime": "2023-09-01t14:00:00.000",
+      "actualTime": "2023-09-01t14:07:00.000",
+      "estimatedRunway": "2023-09-01t14:07:00.000",
+      "actualRunway": "2023-09-01t14:07:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "4",
+      "scheduledTime": "2023-09-01t15:35:00.000",
+      "estimatedTime": "2023-09-01t15:34:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "686",
+      "iataNumber": "qf686",
+      "icaoNumber": "qfa686"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "19",
+      "delay": 16,
+      "scheduledTime": "2023-09-01t14:20:00.000",
+      "estimatedTime": "2023-09-01t14:20:00.000",
+      "actualTime": "2023-09-01t14:36:00.000",
+      "estimatedRunway": "2023-09-01t14:36:00.000",
+      "actualRunway": "2023-09-01t14:36:00.000"
+    },
+    "arrival": {
+      "iataCode": "syd",
+      "icaoCode": "yssy",
+      "terminal": "3",
+      "baggage": "qfr",
+      "gate": "12",
+      "scheduledTime": "2023-09-01t16:40:00.000",
+      "estimatedTime": "2023-09-01t16:38:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "742",
+      "iataNumber": "qf742",
+      "icaoNumber": "qfa742"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "26",
+      "delay": 105,
+      "scheduledTime": "2023-09-01t15:30:00.000",
+      "estimatedTime": "2023-09-01t17:15:00.000"
+    },
+    "arrival": {
+      "iataCode": "asp",
+      "icaoCode": "ybas",
+      "scheduledTime": "2023-09-01t17:40:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1956",
+      "iataNumber": "qf1956",
+      "icaoNumber": "qfa1956"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "20",
+      "delay": 7,
+      "scheduledTime": "2023-09-01t15:35:00.000",
+      "estimatedTime": "2023-09-01t15:35:00.000",
+      "actualTime": "2023-09-01t15:42:00.000",
+      "estimatedRunway": "2023-09-01t15:42:00.000",
+      "actualRunway": "2023-09-01t15:42:00.000"
+    },
+    "arrival": {
+      "iataCode": "per",
+      "icaoCode": "ypph",
+      "terminal": "3",
+      "gate": "16",
+      "scheduledTime": "2023-09-01t17:30:00.000",
+      "estimatedTime": "2023-09-01t17:21:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "887",
+      "iataNumber": "qf887",
+      "icaoNumber": "qfa887"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "21",
+      "delay": 13,
+      "scheduledTime": "2023-09-01t15:45:00.000",
+      "estimatedTime": "2023-09-01t15:45:00.000",
+      "actualTime": "2023-09-01t15:58:00.000",
+      "estimatedRunway": "2023-09-01t15:58:00.000",
+      "actualRunway": "2023-09-01t15:58:00.000"
+    },
+    "arrival": {
+      "iataCode": "bne",
+      "icaoCode": "ybbn",
+      "terminal": "d",
+      "baggage": "d01",
+      "gate": "17",
+      "scheduledTime": "2023-09-01t18:40:00.000",
+      "estimatedTime": "2023-09-01t18:32:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1936",
+      "iataNumber": "qf1936",
+      "icaoNumber": "qfa1936"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 10,
+      "scheduledTime": "2023-09-01t15:55:00.000",
+      "estimatedTime": "2023-09-01t16:05:00.000"
+    },
+    "arrival": {
+      "iataCode": "mgb",
+      "icaoCode": "ymtg",
+      "scheduledTime": "2023-09-01t17:05:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2254",
+      "iataNumber": "qf2254",
+      "icaoNumber": "qfa2254"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "23",
+      "delay": 9,
+      "scheduledTime": "2023-09-01t16:05:00.000",
+      "estimatedTime": "2023-09-01t16:05:00.000",
+      "actualTime": "2023-09-01t16:13:00.000",
+      "estimatedRunway": "2023-09-01t16:13:00.000",
+      "actualRunway": "2023-09-01t16:13:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "10",
+      "scheduledTime": "2023-09-01t17:55:00.000",
+      "estimatedTime": "2023-09-01t17:42:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "690",
+      "iataNumber": "qf690",
+      "icaoNumber": "qfa690"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "22",
+      "delay": 6,
+      "scheduledTime": "2023-09-01t16:20:00.000",
+      "estimatedTime": "2023-09-01t16:20:00.000",
+      "actualTime": "2023-09-01t16:26:00.000",
+      "estimatedRunway": "2023-09-01t16:26:00.000",
+      "actualRunway": "2023-09-01t16:26:00.000"
+    },
+    "arrival": {
+      "iataCode": "cbr",
+      "icaoCode": "yscb",
+      "scheduledTime": "2023-09-01t18:25:00.000",
+      "estimatedTime": "2023-09-01t18:17:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1976",
+      "iataNumber": "qf1976",
+      "icaoNumber": "qfa1976"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 7,
+      "scheduledTime": "2023-09-01t16:20:00.000",
+      "estimatedTime": "2023-09-01t16:27:00.000"
+    },
+    "arrival": {
+      "iataCode": "plo",
+      "icaoCode": "yplc",
+      "scheduledTime": "2023-09-01t17:15:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2273",
+      "iataNumber": "qf2273",
+      "icaoNumber": "qfa2273"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 8,
+      "scheduledTime": "2023-09-01t16:35:00.000",
+      "estimatedTime": "2023-09-01t16:35:00.000",
+      "actualTime": "2023-09-01t16:42:00.000",
+      "estimatedRunway": "2023-09-01t16:42:00.000",
+      "actualRunway": "2023-09-01t16:42:00.000"
+    },
+    "arrival": {
+      "iataCode": "wya",
+      "icaoCode": "ywha",
+      "scheduledTime": "2023-09-01t17:25:00.000",
+      "estimatedTime": "2023-09-01t17:19:00.000",
+      "actualTime": "2023-09-01t17:19:00.000",
+      "estimatedRunway": "2023-09-01t17:19:00.000",
+      "actualRunway": "2023-09-01t17:19:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2071",
+      "iataNumber": "qf2071",
+      "icaoNumber": "qfa2071"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "22",
+      "delay": 8,
+      "scheduledTime": "2023-09-01t17:45:00.000",
+      "estimatedTime": "2023-09-01t17:45:00.000",
+      "actualTime": "2023-09-01t17:52:00.000",
+      "estimatedRunway": "2023-09-01t17:52:00.000",
+      "actualRunway": "2023-09-01t17:52:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "6",
+      "scheduledTime": "2023-09-01t19:35:00.000",
+      "estimatedTime": "2023-09-01t19:27:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "694",
+      "iataNumber": "qf694",
+      "icaoNumber": "qfa694"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "25",
+      "delay": 29,
+      "scheduledTime": "2023-09-01t17:55:00.000",
+      "estimatedTime": "2023-09-01t18:13:00.000",
+      "actualTime": "2023-09-01t18:24:00.000",
+      "estimatedRunway": "2023-09-01t18:24:00.000",
+      "actualRunway": "2023-09-01t18:24:00.000"
+    },
+    "arrival": {
+      "iataCode": "hba",
+      "icaoCode": "ymhb",
+      "terminal": "d",
+      "gate": "6",
+      "delay": 12,
+      "scheduledTime": "2023-09-01t20:15:00.000",
+      "estimatedTime": "2023-09-01t20:27:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "5681",
+      "iataNumber": "qf5681",
+      "icaoNumber": "qfa5681"
+    },
+    "codeshared": {
+      "airline": {
+        "name": "jetstar",
+        "iataCode": "jq",
+        "icaoCode": "jst"
+      },
+      "flight": {
+        "number": "681",
+        "iataNumber": "jq681",
+        "icaoNumber": "jst681"
+      }
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "21",
+      "delay": 12,
+      "scheduledTime": "2023-09-01t17:55:00.000",
+      "estimatedTime": "2023-09-01t17:55:00.000",
+      "actualTime": "2023-09-01t18:06:00.000",
+      "estimatedRunway": "2023-09-01t18:06:00.000",
+      "actualRunway": "2023-09-01t18:06:00.000"
+    },
+    "arrival": {
+      "iataCode": "syd",
+      "icaoCode": "yssy",
+      "terminal": "3",
+      "baggage": "qfr",
+      "gate": "t3g",
+      "scheduledTime": "2023-09-01t20:15:00.000",
+      "estimatedTime": "2023-09-01t20:08:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "744",
+      "iataNumber": "qf744",
+      "icaoNumber": "qfa744"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "20",
+      "delay": 31,
+      "scheduledTime": "2023-09-01t18:55:00.000",
+      "estimatedTime": "2023-09-01t19:20:00.000",
+      "actualTime": "2023-09-01t19:26:00.000",
+      "estimatedRunway": "2023-09-01t19:26:00.000",
+      "actualRunway": "2023-09-01t19:26:00.000"
+    },
+    "arrival": {
+      "iataCode": "syd",
+      "icaoCode": "yssy",
+      "terminal": "3",
+      "baggage": "qfr",
+      "gate": "6",
+      "delay": 12,
+      "scheduledTime": "2023-09-01t21:15:00.000",
+      "estimatedTime": "2023-09-01t21:26:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "746",
+      "iataNumber": "qf746",
+      "icaoNumber": "qfa746"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "22",
+      "delay": 140,
+      "scheduledTime": "2023-09-01t18:55:00.000",
+      "estimatedTime": "2023-09-01t21:15:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "4",
+      "scheduledTime": "2023-09-01t20:45:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "696",
+      "iataNumber": "qf696",
+      "icaoNumber": "qfa696"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 17,
+      "scheduledTime": "2023-09-01t19:00:00.000",
+      "estimatedTime": "2023-09-01t19:17:00.000"
+    },
+    "arrival": {
+      "iataCode": "plo",
+      "icaoCode": "yplc",
+      "scheduledTime": "2023-09-01t19:55:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2275",
+      "iataNumber": "qf2275",
+      "icaoNumber": "qfa2275"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 10,
+      "scheduledTime": "2023-09-01t19:10:00.000",
+      "estimatedTime": "2023-09-01t19:10:00.000",
+      "actualTime": "2023-09-01t19:20:00.000",
+      "estimatedRunway": "2023-09-01t19:20:00.000",
+      "actualRunway": "2023-09-01t19:20:00.000"
+    },
+    "arrival": {
+      "iataCode": "wya",
+      "icaoCode": "ywha",
+      "scheduledTime": "2023-09-01t20:00:00.000",
+      "estimatedTime": "2023-09-01t19:59:00.000",
+      "actualTime": "2023-09-01t19:56:00.000",
+      "estimatedRunway": "2023-09-01t19:56:00.000",
+      "actualRunway": "2023-09-01t19:56:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2091",
+      "iataNumber": "qf2091",
+      "icaoNumber": "qfa2091"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "21",
+      "delay": 22,
+      "scheduledTime": "2023-09-01t19:20:00.000",
+      "estimatedTime": "2023-09-01t19:30:00.000",
+      "actualTime": "2023-09-01t19:42:00.000",
+      "estimatedRunway": "2023-09-01t19:42:00.000",
+      "actualRunway": "2023-09-01t19:42:00.000"
+    },
+    "arrival": {
+      "iataCode": "per",
+      "icaoCode": "ypph",
+      "terminal": "4",
+      "gate": "1",
+      "scheduledTime": "2023-09-01t21:15:00.000",
+      "estimatedTime": "2023-09-01t21:11:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "889",
+      "iataNumber": "qf889",
+      "icaoNumber": "qfa889"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "25",
+      "delay": 17,
+      "scheduledTime": "2023-09-01t19:30:00.000",
+      "estimatedTime": "2023-09-01t19:38:00.000",
+      "actualTime": "2023-09-01t19:46:00.000",
+      "estimatedRunway": "2023-09-01t19:46:00.000",
+      "actualRunway": "2023-09-01t19:46:00.000"
+    },
+    "arrival": {
+      "iataCode": "bne",
+      "icaoCode": "ybbn",
+      "terminal": "d",
+      "baggage": "d01",
+      "gate": "16",
+      "scheduledTime": "2023-09-01t22:25:00.000",
+      "estimatedTime": "2023-09-01t22:22:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1938",
+      "iataNumber": "qf1938",
+      "icaoNumber": "qfa1938"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "24",
+      "delay": 6,
+      "scheduledTime": "2023-09-01t19:30:00.000",
+      "estimatedTime": "2023-09-01t19:30:00.000",
+      "actualTime": "2023-09-01t19:36:00.000",
+      "estimatedRunway": "2023-09-01t19:36:00.000",
+      "actualRunway": "2023-09-01t19:36:00.000"
+    },
+    "arrival": {
+      "iataCode": "cbr",
+      "icaoCode": "yscb",
+      "scheduledTime": "2023-09-01t21:35:00.000",
+      "estimatedTime": "2023-09-01t21:29:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1978",
+      "iataNumber": "qf1978",
+      "icaoNumber": "qfa1978"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "23",
+      "delay": 6,
+      "scheduledTime": "2023-09-01t19:50:00.000",
+      "estimatedTime": "2023-09-01t19:50:00.000",
+      "actualTime": "2023-09-01t19:55:00.000",
+      "estimatedRunway": "2023-09-01t19:55:00.000",
+      "actualRunway": "2023-09-01t19:55:00.000"
+    },
+    "arrival": {
+      "iataCode": "syd",
+      "icaoCode": "yssy",
+      "terminal": "3",
+      "baggage": "qfr",
+      "gate": "9",
+      "scheduledTime": "2023-09-01t22:10:00.000",
+      "estimatedTime": "2023-09-01t21:54:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "748",
+      "iataNumber": "qf748",
+      "icaoNumber": "qfa748"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "20",
+      "delay": 16,
+      "scheduledTime": "2023-09-02t06:00:00.000",
+      "estimatedTime": "2023-09-02t06:00:00.000",
+      "actualTime": "2023-09-02t06:15:00.000",
+      "estimatedRunway": "2023-09-02t06:15:00.000",
+      "actualRunway": "2023-09-02t06:15:00.000"
+    },
+    "arrival": {
+      "iataCode": "syd",
+      "icaoCode": "yssy",
+      "terminal": "3",
+      "baggage": "qfr",
+      "gate": "t3g",
+      "scheduledTime": "2023-09-02t08:20:00.000",
+      "estimatedTime": "2023-09-02t08:19:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "730",
+      "iataNumber": "qf730",
+      "icaoNumber": "qfa730"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "19",
+      "delay": 20,
+      "scheduledTime": "2023-09-02t06:00:00.000",
+      "estimatedTime": "2023-09-02t06:26:00.000",
+      "actualTime": "2023-09-02t06:20:00.000",
+      "estimatedRunway": "2023-09-02t06:20:00.000",
+      "actualRunway": "2023-09-02t06:20:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "12",
+      "delay": 4,
+      "scheduledTime": "2023-09-02t07:50:00.000",
+      "estimatedTime": "2023-09-02t07:54:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "670",
+      "iataNumber": "qf670",
+      "icaoNumber": "qfa670"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "21",
+      "delay": 7,
+      "scheduledTime": "2023-09-02t06:05:00.000",
+      "estimatedTime": "2023-09-02t06:05:00.000",
+      "actualTime": "2023-09-02t06:11:00.000",
+      "estimatedRunway": "2023-09-02t06:11:00.000",
+      "actualRunway": "2023-09-02t06:11:00.000"
+    },
+    "arrival": {
+      "iataCode": "bne",
+      "icaoCode": "ybbn",
+      "terminal": "d",
+      "baggage": "d01",
+      "gate": "17",
+      "scheduledTime": "2023-09-02t09:00:00.000",
+      "estimatedTime": "2023-09-02t08:47:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1928",
+      "iataNumber": "qf1928",
+      "icaoNumber": "qfa1928"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "cancelled",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "26",
+      "scheduledTime": "2023-09-02t06:10:00.000",
+      "estimatedTime": "2023-09-02t06:10:00.000"
+    },
+    "arrival": {
+      "iataCode": "cns",
+      "icaoCode": "ybcs",
+      "terminal": "2",
+      "gate": "21",
+      "scheduledTime": "2023-09-02t09:40:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "5960",
+      "iataNumber": "qf5960",
+      "icaoNumber": "qfa5960"
+    },
+    "codeshared": {
+      "airline": {
+        "name": "jetstar",
+        "iataCode": "jq",
+        "icaoCode": "jst"
+      },
+      "flight": {
+        "number": "960",
+        "iataNumber": "jq960",
+        "icaoNumber": "jst960"
+      }
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "16",
+      "delay": 7,
+      "scheduledTime": "2023-09-02t06:10:00.000",
+      "estimatedTime": "2023-09-02t06:10:00.000",
+      "actualTime": "2023-09-02t06:17:00.000",
+      "estimatedRunway": "2023-09-02t06:17:00.000",
+      "actualRunway": "2023-09-02t06:17:00.000"
+    },
+    "arrival": {
+      "iataCode": "per",
+      "icaoCode": "ypph",
+      "terminal": "4",
+      "gate": "12",
+      "scheduledTime": "2023-09-02t08:05:00.000",
+      "estimatedTime": "2023-09-02t07:49:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "883",
+      "iataNumber": "qf883",
+      "icaoNumber": "qfa883"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "22",
+      "delay": 130,
+      "scheduledTime": "2023-09-02t06:20:00.000",
+      "estimatedTime": "2023-09-02t08:30:00.000"
+    },
+    "arrival": {
+      "iataCode": "dps",
+      "icaoCode": "wadd",
+      "terminal": "i",
+      "baggage": "5",
+      "scheduledTime": "2023-09-02t10:15:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "5566",
+      "iataNumber": "qf5566",
+      "icaoNumber": "qfa5566"
+    },
+    "codeshared": {
+      "airline": {
+        "name": "jetstar",
+        "iataCode": "jq",
+        "icaoCode": "jst"
+      },
+      "flight": {
+        "number": "125",
+        "iataNumber": "jq125",
+        "icaoNumber": "jst125"
+      }
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "23",
+      "scheduledTime": "2023-09-02t06:25:00.000",
+      "estimatedTime": "2023-09-02t06:14:00.000",
+      "actualTime": "2023-09-02t06:24:00.000",
+      "estimatedRunway": "2023-09-02t06:24:00.000",
+      "actualRunway": "2023-09-02t06:24:00.000"
+    },
+    "arrival": {
+      "iataCode": "asp",
+      "icaoCode": "ybas",
+      "scheduledTime": "2023-09-02t08:35:00.000",
+      "estimatedTime": "2023-09-02t08:17:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1954",
+      "iataNumber": "qf1954",
+      "icaoNumber": "qfa1954"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "25",
+      "delay": 4,
+      "scheduledTime": "2023-09-02t07:00:00.000",
+      "estimatedTime": "2023-09-02t07:00:00.000",
+      "actualTime": "2023-09-02t07:03:00.000",
+      "estimatedRunway": "2023-09-02t07:03:00.000",
+      "actualRunway": "2023-09-02t07:03:00.000"
+    },
+    "arrival": {
+      "iataCode": "drw",
+      "icaoCode": "ypdn",
+      "baggage": "3",
+      "scheduledTime": "2023-09-02t10:45:00.000",
+      "estimatedTime": "2023-09-02t10:29:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "5692",
+      "iataNumber": "qf5692",
+      "icaoNumber": "qfa5692"
+    },
+    "codeshared": {
+      "airline": {
+        "name": "jetstar",
+        "iataCode": "jq",
+        "icaoCode": "jst"
+      },
+      "flight": {
+        "number": "692",
+        "iataNumber": "jq692",
+        "icaoNumber": "jst692"
+      }
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "24",
+      "delay": 8,
+      "scheduledTime": "2023-09-02t07:05:00.000",
+      "estimatedTime": "2023-09-02t07:05:00.000",
+      "actualTime": "2023-09-02t07:12:00.000",
+      "estimatedRunway": "2023-09-02t07:12:00.000",
+      "actualRunway": "2023-09-02t07:12:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "1",
+      "scheduledTime": "2023-09-02t08:55:00.000",
+      "estimatedTime": "2023-09-02t08:46:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "672",
+      "iataNumber": "qf672",
+      "icaoNumber": "qfa672"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "26",
+      "delay": 7,
+      "scheduledTime": "2023-09-02t08:00:00.000",
+      "estimatedTime": "2023-09-02t08:00:00.000",
+      "actualTime": "2023-09-02t08:06:00.000",
+      "estimatedRunway": "2023-09-02t08:06:00.000",
+      "actualRunway": "2023-09-02t08:06:00.000"
+    },
+    "arrival": {
+      "iataCode": "ool",
+      "icaoCode": "ybcg",
+      "terminal": "1",
+      "gate": "9",
+      "scheduledTime": "2023-09-02t10:50:00.000",
+      "estimatedTime": "2023-09-02t10:36:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "5498",
+      "iataNumber": "qf5498",
+      "icaoNumber": "qfa5498"
+    },
+    "codeshared": {
+      "airline": {
+        "name": "jetstar",
+        "iataCode": "jq",
+        "icaoCode": "jst"
+      },
+      "flight": {
+        "number": "498",
+        "iataNumber": "jq498",
+        "icaoNumber": "jst498"
+      }
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "24",
+      "delay": 20,
+      "scheduledTime": "2023-09-02t08:15:00.000",
+      "estimatedTime": "2023-09-02t08:25:00.000",
+      "actualTime": "2023-09-02t08:35:00.000",
+      "estimatedRunway": "2023-09-02t08:35:00.000",
+      "actualRunway": "2023-09-02t08:35:00.000"
+    },
+    "arrival": {
+      "iataCode": "drw",
+      "icaoCode": "ypdn",
+      "delay": 6,
+      "scheduledTime": "2023-09-02t12:00:00.000",
+      "estimatedTime": "2023-09-02t12:05:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1950",
+      "iataNumber": "qf1950",
+      "icaoNumber": "qfa1950"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "25",
+      "delay": 9,
+      "scheduledTime": "2023-09-02t08:15:00.000",
+      "estimatedTime": "2023-09-02t08:15:00.000",
+      "actualTime": "2023-09-02t08:23:00.000",
+      "estimatedRunway": "2023-09-02t08:23:00.000",
+      "actualRunway": "2023-09-02t08:23:00.000"
+    },
+    "arrival": {
+      "iataCode": "mel",
+      "icaoCode": "ymml",
+      "terminal": "1",
+      "gate": "8",
+      "scheduledTime": "2023-09-02t10:05:00.000",
+      "estimatedTime": "2023-09-02t09:52:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "674",
+      "iataNumber": "qf674",
+      "icaoNumber": "qfa674"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 7,
+      "scheduledTime": "2023-09-02t08:15:00.000",
+      "estimatedTime": "2023-09-02t08:22:00.000"
+    },
+    "arrival": {
+      "iataCode": "plo",
+      "icaoCode": "yplc",
+      "scheduledTime": "2023-09-02t09:10:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2267",
+      "iataNumber": "qf2267",
+      "icaoNumber": "qfa2267"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "23",
+      "delay": 15,
+      "scheduledTime": "2023-09-02t08:55:00.000",
+      "estimatedTime": "2023-09-02t08:55:00.000",
+      "actualTime": "2023-09-02t09:09:00.000",
+      "estimatedRunway": "2023-09-02t09:09:00.000",
+      "actualRunway": "2023-09-02t09:09:00.000"
+    },
+    "arrival": {
+      "iataCode": "syd",
+      "icaoCode": "yssy",
+      "terminal": "3",
+      "baggage": "qfr",
+      "gate": "6",
+      "scheduledTime": "2023-09-02t11:15:00.000",
+      "estimatedTime": "2023-09-02t11:12:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "736",
+      "iataNumber": "qf736",
+      "icaoNumber": "qfa736"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "26",
+      "delay": 1,
+      "scheduledTime": "2023-09-02t09:05:00.000",
+      "estimatedTime": "2023-09-02t09:06:00.000"
+    },
+    "arrival": {
+      "iataCode": "bne",
+      "icaoCode": "ybbn",
+      "terminal": "d",
+      "baggage": "d01",
+      "gate": "21",
+      "scheduledTime": "2023-09-02t12:00:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "1930",
+      "iataNumber": "qf1930",
+      "icaoNumber": "qfa1930"
+    }
+  },
+  {
+    "type": "departure",
+    "status": "active",
+    "departure": {
+      "iataCode": "adl",
+      "icaoCode": "ypad",
+      "terminal": "1",
+      "gate": "50",
+      "delay": 7,
+      "scheduledTime": "2023-09-02t09:15:00.000",
+      "estimatedTime": "2023-09-02t09:15:00.000",
+      "actualTime": "2023-09-02t09:22:00.000",
+      "estimatedRunway": "2023-09-02t09:22:00.000",
+      "actualRunway": "2023-09-02t09:22:00.000"
+    },
+    "arrival": {
+      "iataCode": "wya",
+      "icaoCode": "ywha",
+      "scheduledTime": "2023-09-02t10:05:00.000",
+      "estimatedTime": "2023-09-02t09:57:00.000",
+      "actualTime": "2023-09-02t09:58:00.000",
+      "estimatedRunway": "2023-09-02t09:58:00.000",
+      "actualRunway": "2023-09-02t09:58:00.000"
+    },
+    "airline": {
+      "name": "qantas",
+      "iataCode": "qf",
+      "icaoCode": "qfa"
+    },
+    "flight": {
+      "number": "2069",
+      "iataNumber": "qf2069",
+      "icaoNumber": "qfa2069"
+    }
+  }
+]
