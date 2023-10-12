@@ -12,17 +12,65 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Populate the airline dropdown using Aviation Edge API.
 const airlineDropdown = document.getElementById('airlineDropdown');
 
-fetch(`https://aviation-edge.com/v2/public/airlineDatabase?key=${aviationEdgeApiKey}`)
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(airline => {
-            const option = document.createElement('option');
-            option.value = airline.codeIcaoAirline;
-            option.text = airline.nameAirline;
-            airlineDropdown.appendChild(option);
-        });
-    })
-    .catch(error => console.error('Error fetching airline data:', error));
+function fetchAndPopulateAirlineDropdown() {
+  const bounds = map.getBounds();
+  const url = `${aviationEdgeBaseUrl}?key=${aviationEdgeApiKey}`;
+
+  fetch(url)
+      .then(response => response.json())
+      .then(data => {
+          // Clear existing options from the dropdown.
+          while (airlineDropdown.firstChild) {
+              airlineDropdown.removeChild(airlineDropdown.firstChild);
+          }
+
+          // Create a set to store unique airline IATA codes.
+          const airlinesWithinBounds = new Set();
+
+          data.forEach(flight => {
+              if (flight.geography && flight.geography.latitude && flight.geography.longitude) {
+                  const lat = flight.geography.latitude;
+                  const lon = flight.geography.longitude;
+
+                  // Check if the flight is within the visible map area.
+                  if (bounds.contains([lat, lon])) {
+                      airlinesWithinBounds.add(flight.airline.icaoCode);
+                  }
+              }
+          });
+
+          // Fetch airline names from the airline database.
+          fetch(`https://aviation-edge.com/v2/public/airlineDatabase?key=${aviationEdgeApiKey}`)
+              .then(response => response.json())
+              .then(airlineData => {
+                // Create an array to store airline name and IATA code pairs.
+                const airlineOptions = [];
+
+                // Populate the array with matching pairs.
+                airlinesWithinBounds.forEach(icaoCode => {
+                  const matchingAirline = airlineData.find(airline => airline.codeIcaoAirline === icaoCode);
+                  if (matchingAirline) {
+                      airlineOptions.push({
+                          value: icaoCode,
+                          text: matchingAirline.nameAirline,
+                      });
+                  }
+              });
+                   // Sort the airline options alphabetically by airline name.
+                   airlineOptions.sort((a, b) => a.text.localeCompare(b.text));
+
+                   // Populate the dropdown with sorted airline names.
+                   airlineOptions.forEach(option => {
+                       const newOption = document.createElement('option');
+                       newOption.value = option.value;
+                       newOption.text = option.text;
+                       airlineDropdown.appendChild(newOption);
+                   });
+               })
+              .catch(error => console.error('Error fetching airline data:', error));
+      })
+      .catch(error => console.error('Error fetching flight data:', error));
+}
 
 // Function to fetch and display flights based on the selected airline.
 function fetchAndDisplayFlights() {
@@ -77,6 +125,8 @@ function fetchAndDisplayFlights() {
     });
 }
 
+// Call the function to initially populate the dropdown with airline names within the visible map area.
+fetchAndPopulateAirlineDropdown();
 
 // Add an event listener to the dropdown to handle changes.
 airlineDropdown.addEventListener('change', function () {
