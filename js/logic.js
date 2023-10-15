@@ -198,7 +198,7 @@ function fetchDelayedFlights(selectedAirport) {
     var currentDate = new Date();
 
     // Subtract 1 day from the current date
-    currentDate.setDate(currentDate.getDate() - 3);
+    currentDate.setDate(currentDate.getDate() - 5);
 
     // Get the year, month, and day components
     var year = currentDate.getFullYear();
