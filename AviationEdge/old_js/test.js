@@ -1,3 +1,4 @@
+
 const aviationEdgeApiKey = '797861-9a1ddb'; // Replace with your Aviation Edge API key
 const map = L.map('map').setView([-34.000233, 138.209152], 7); // Set initial map center and zoom level
 const aviationEdgeBaseUrl = 'https://aviation-edge.com/v2/public/flights';
@@ -125,6 +126,7 @@ function fetchAndDisplayFlights() {
 }
 
 // Populate the airport dropdown using Aviation Edge API.
+
 const airportDropdown = document.getElementById('airportDropdown');
 
 function fetchAndPopulateAirportDropdown() {
@@ -134,13 +136,12 @@ function fetchAndPopulateAirportDropdown() {
     fetch(url2)
         .then(response => response.json())
         .then(data => {
-            console.log(data)
             // Clear existing options from the dropdown.
             while (airportDropdown.firstChild) {
                 airportDropdown.removeChild(airportDropdown.firstChild);
             }
   
-            // Create a set to store unique airport IATA codes.
+            // Create a set to store unique airport ICAO codes.
             const airportsWithinBounds = new Set();
   
             data.forEach(flight => {
@@ -150,8 +151,7 @@ function fetchAndPopulateAirportDropdown() {
   
                     // Check if the flight is within the visible map area.
                     if (bounds.contains([lat, lon])) {
-                        airportsWithinBounds.add(flight.departure.iataCode);
-                        // console.log(airportsWithinBounds)
+                        airportsWithinBounds.add(flight.departure.icaoCode);
                     }
                 }
             });
@@ -160,83 +160,89 @@ function fetchAndPopulateAirportDropdown() {
             fetch(`https://aviation-edge.com/v2/public/airportDatabase?key=${aviationEdgeApiKey}`)
                 .then(response => response.json())
                 .then(airportData => {
-                    console.log(airportData)
-                    // Create an array to store airport name and IATA code pairs.
-                    const airportOptions = [];
-    
-                    // Populate the array with matching pairs.
-                    airportsWithinBounds.forEach(iataCode => {
-                        const matchingAirport = airportData.find(airport => airport.codeIataAirport === iataCode);
-                        if (matchingAirport) {
-                            airportOptions.push({
-                                value: iataCode,
-                                text: matchingAirport.nameAirport,
-                            });
-                        }
-                    });
-                        // Sort the airport options alphabetically by airport name.
-                        airportOptions.sort((a, b) => a.text.localeCompare(b.text));
-    
-                        // Populate the dropdown with sorted airport names.
-                        airportOptions.forEach(option => {
-                            const newOption = document.createElement('option');
-                            newOption.value = option.value;
-                            newOption.text = option.text;
-                            airportDropdown.appendChild(newOption);
+                  // Create an array to store airport name and ICAO code pairs.
+                  const airportOptions = [];
+  
+                  // Populate the array with matching pairs.
+                  airportsWithinBounds.forEach(icaoCode => {
+                    const matchingAirport = airportData.find(airport => airport.codeIcaoAirport === icaoCode);
+                    if (matchingAirport) {
+                        airportOptions.push({
+                            value: icaoCode,
+                            text: matchingAirport.nameAirport,
                         });
-                    })
-                    .catch(error => console.error('Error fetching airport data:', error));
-            })
-            .catch(error => console.error('Error fetching flight data:', error));
+                    }
+                });
+                     // Sort the airport options alphabetically by airport name.
+                     airportOptions.sort((a, b) => a.text.localeCompare(b.text));
+  
+                     // Populate the dropdown with sorted airport names.
+                     airportOptions.forEach(option => {
+                         const newOption = document.createElement('option');
+                         newOption.value = option.value;
+                         newOption.text = option.text;
+                         airportDropdown.appendChild(newOption);
+                     });
+                 })
+                .catch(error => console.error('Error fetching airport data:', error));
+        })
+        .catch(error => console.error('Error fetching flight data:', error));
   }
 
 
 // Function to fetch delayed flight data
+const axios = require('axios');
 const selectedAirport = airportDropdown.value;
-function fetchDelayedFlights(selectedAirport) {
+async function fetchDelayedFlights(selectedAirport) {
     // Get the current date
     var currentDate = new Date();
+    var nextDay = new Date();
 
     // Subtract 1 day from the current date
-    currentDate.setDate(currentDate.getDate() - 3);
+    currentDate.setDate(currentDate.getDate() - 1);
+    nextDay.setDate(nextDay.getDate());
 
     // Get the year, month, and day components
     var year = currentDate.getFullYear();
     var month = String(currentDate.getMonth() + 1).padStart(2, '0'); // Months are 0-based, so add 1
     var day = String(currentDate.getDate()).padStart(2, '0');
 
+    // Get the year, month, and day components
+    var yeart = nextDay.getFullYear();
+    var montht = String(nextDay.getMonth() + 1).padStart(2, '0'); // Months are 0-based, so add 1
+    var dayt = String(nextDay.getDate()).padStart(2, '0');
+
     // Format the date as "YYYY-MM-DD"
     const formattedDate = `${year}-${month}-${day}`;
+    const nextDate = `${yeart}-${montht}-${dayt}`;
 
-    // due to inconsistency in the source api, Adelaide Aiport has been set as static for this exercise
+    console.log(formattedDate)
+    console.log(nextDate)
 
-    fetch(`https://aviation-edge.com/v2/public/flightsHistory?key=${aviationEdgeApiKey}&code=ADL&type=departure&date_from=${formattedDate}`)
-    .then(response => response.json())
-    .then(data => {
-        console.log(data)
+    try {
+        const response = await fetch(`https://aviation-edge.com/v2/public/flightsHistory??key=${aviationEdgeApiKey}&code=${selectedAirport}&type=departure&date_from=${formattedDate}&date_to=${nextDate}`);
+        const data = await response.json();
+
         // Get the table body element
         const tableBody = document.querySelector('#flightTable tbody');
 
-        // Clear existing data in the table.
-        tableBody.innerHTML = '';
-
-        // Iterate through the response data and populate the table.
+        // Iterate through the data and populate the table
         data.forEach(flight => {
             const row = document.createElement('tr');
             row.innerHTML = `
-            <td>${flight.flight.number}</td>
-            <td>${flight.airline.name}</td>
-            <td>${flight.departure.delay}</td>
-            <td>${flight.arrival.scheduledTime}</td>
+                <td>${flight.flight.number}</td>
+                <td>${flight.airline.name}</td>
+                <td>${flight.departure.delay}</td>
+                <td>${flight.arrival.scheduledTime}</td>
             `;
             tableBody.appendChild(row);
         });
-    })
-    .catch(error => console.error('Error fetching flight data:', error));
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
 }
-
 // Call the function to fetch and populate the data
-fetchDelayedFlights();
+fetchDelayedFlights(selectedAirport);
 
 // Call the function to initially populate the dropdown with airport names within the visible map area.
 fetchAndPopulateAirportDropdown();
@@ -247,14 +253,16 @@ fetchAndPopulateAirlineDropdown();
 // Add an event listener to the dropdown to handle changes.
 airlineDropdown.addEventListener('change', function () {
     const selectedAirline = airlineDropdown.value;
-    fetchDelayedFlights(selectedAirline);
+    fetchDelayedFlights(selectedAirport);
 });
 
 // Add an event listener to the dropdown to handle changes.
 airportDropdown.addEventListener('change', function () {
     const selectedAirport = airportDropdown.value;
-    fetchAndDisplayFlights(selectedAirport);
+    fetchAndDisplayFlights(selectedAirline);
 });
       
 // Call the function to fetch and display flights
 fetchAndDisplayFlights();
+
+

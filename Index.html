@@ -19,25 +19,36 @@
         <h2 id="heading1">Flight Tracking Map</h2>
         <h3 id="heading2">Default Landing Map Centered Over Lower South Australia</h3>
     </nav>
-
-
     <Main>
         <article id="article1">
             <!-- Create a div for the map -->
             <div id="map"></div>
         </article>
         <aside>
-            <div id="controls">
-                <label for="airlineDropdown">Select Airline: </label>
+            <div class="controls">
+                <label for="airlineDropdown">Select Airline to Filter Map: </label>
                 <select id="airlineDropdown"></select>
             </div>
+            <div class="controls">
+                <label for="airportDropdown">Select an Airport to see Flight Delay Details: </label>
+                <select id="airportDropdown"></select>
+            </div>
+            <table id="flightTable">
+                <thead>
+                    <tr>
+                        <th>Flight Number</th>
+                        <th>Airline</th>
+                        <th>Delay (minutes)</th>
+                        <th>Scheduled Arrival</th>
+                    </tr>
+                </thead>
+                <tbody id="flightTableBody">
+                    <!-- Flight data will be populated here -->
+                </tbody>
+            </table>
         </aside>
-
     </Main>
-    <article id="article2">
-        <p>Table to sit under map</p>
-    </article>
     <!-- Include your JavaScript code here -->
-    <script src="js/logic.js"></script>
+    <script src="js/test2.js"></script>
 </body>
 </html>

@@ -1,3 +1,4 @@
+
 const aviationEdgeApiKey = '797861-9a1ddb'; // Replace with your Aviation Edge API key
 const map = L.map('map').setView([-34.000233, 138.209152], 7); // Set initial map center and zoom level
 const aviationEdgeBaseUrl = 'https://aviation-edge.com/v2/public/flights';
@@ -258,3 +259,5 @@ airportDropdown.addEventListener('change', function () {
       
 // Call the function to fetch and display flights
 fetchAndDisplayFlights();
+
+
