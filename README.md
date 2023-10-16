@@ -12,7 +12,7 @@ The bulk of the flights are heavily concentrated within the fifth city, Adelaide
 >Black >> Any other status / Non-commercial aircrafts
 # *Rate Limits: 
 Users of the Aviation Edge API need to be mindful of rate limits, which restrict the number of requests within specific timeframes. Exceeding these limits may lead to temporary blocks or usage restrictions. It's essential to plan requests carefully and efficiently to avoid disruptions in service.
-# * Data Freshness: 
+# *Data Freshness: 
 While the API provides real-time data, it's important to acknowledge that there might be slight delays due to the processing and updating of information. Users should be aware of this delay when relying on the API for time-sensitive applications and make appropriate allowances for potential lag.
 # *Limited Free Tier: 
 Careful evaluation of their specific needs and budget is advised to make an informed choice.
