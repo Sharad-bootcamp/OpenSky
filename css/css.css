@@ -102,3 +102,8 @@ th {
 div .controls {
 	float: left;
 }
+
+.fixedHead {
+	overflow-y: auto; 
+	height: 600px;
+  }
