@@ -1,14 +1,15 @@
-# OpenSky
-Project 3
+# OpenSky - Project 3
 
-The data provided by Seek was initially shared as private insights, available for free. These insights were obtained in response to a job advertisement campaign that lasted for a duration of 10 days in April 2018.
+The data provided by Aviation Edge API was available paying a fee suscription. These insights were obtained from live tracking flights to actual airport schedules, airline routes aggregated from our various data partners around the world and presented to our clients through Flight Radar API.
 
-Upon meticulous data cleaning to enhance our comprehension, we have drawn the following key conclusions:
+Upon meticulous data modelling to enhance our comprehension, we have drawn the following key conclusions:
 
-Geographical Concentration: The bulk of the job offerings are heavily concentrated within the top five cities, namely Sydney, Melbourne, Brisbane, Perth, and Adelaide.
-Diverse Demand: Further analysis has shown the varying job category preferences across each of the five prominent cities. When focusing on Adelaide, where a substantial portion of our peers reside, we've noticed that the 'Information and Communication Tech' category ranks fourth, comprising roughly 80 posted job offers. In contrast, this category takes the lead in Sydney, boasting nearly 16 times the count of Adelaide. Moreover, it secures the second position in Melbourne with a significant 750 job listings.
-Optimal Timing: Our analysis has also revealed the ideal time for job seekers to commence their search. Prior to this analysis, the presumption might have been that most jobs are posted around midday, however, our findings contradict this. Instead, most of the job opportunities tend to surge between 10 pm and 7 am on the following day.
-In summary, these findings provide valuable insights for job seekers and employers alike. They suggest that individuals seeking employment should focus on the key cities mentioned and tailor their job searches to the specific preferences of each city. Additionally, the findings emphasize the importance of considering timing when conducting job searches, as opportunities may be more abundant during late evening and early morning hours.
+Geographical Concentration: The bulk of the flights are heavily concentrated within the top five cities, namely Sydney, Melbourne, Brisbane, Perth, and Adelaide.
+Rate Limits: Users of the Aviation Edge API need to be mindful of rate limits, which restrict the number of requests within specific timeframes. Exceeding these limits may lead to temporary blocks or usage restrictions. It's essential to plan requests carefully and efficiently to avoid disruptions in service.
+Data Freshness: While the API provides real-time data, it's important to acknowledge that there might be slight delays due to the processing and updating of information. Users should be aware of this delay when relying on the API for time-sensitive applications and make appropriate allowances for potential lag.
+Limited Free Tier: The API offers a free-tier plan, but it may come with limitations in terms of access and features. Users looking for additional or advanced functionalities should consider subscribing to a paid plan. Careful evaluation of their specific needs and budget is advised to make an informed choice.
+Data Coverage: The API's coverage of certain data types, such as airports, airlines, and flights, as well as geographical regions, may vary. Some data may be more comprehensive in specific areas compared to others. Users should assess whether the available data aligns with their requirements.
+Limited Customer Support for Free Tiers: Free-tier users of the API might experience limited access to customer support. Responses from support may take longer compared to paid users who typically receive higher priority assistance. This should be considered when evaluating the level of support needed for your use case.
 
 # Requirements
 Data and Delivery (25 points)
@@ -23,6 +24,7 @@ A JavaScript library not shown in class is used in the project. (7.5 points)
 The project conforms to one of the following designs: (10 points)
 A Leaflet or Plotly chart built from data gathered through web scraping
 A dashboard page with multiple charts that all reference the same data
+
 # Visualisations (25 points)
 A minimum of three unique views present the data. (5 points)
 Multiple user-driven interactions (such as dropdowns, filters, or a zoom feature) are included on the final page. (5 points)
