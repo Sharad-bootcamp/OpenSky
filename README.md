@@ -5,7 +5,11 @@ The data provided by Aviation Edge API was available paying a fee suscription. T
 Upon meticulous data modelling to enhance our comprehension, we have drawn the following key conclusions:
 
 # *Geographical Concentration: 
-The bulk of the flights are heavily concentrated within the fifth city, named Adelaide.
+The bulk of the flights are heavily concentrated within the fifth city, Adelaide, highlighted in 4 different colours which represent each airplane status:
+>Red >> Flights in route trough their destination
+>Yellow >> Flights in Taxi mode
+>Blue >> Landed flights
+>Black >> Any other status / Non-commercial aircrafts
 # *Rate Limits: 
 Users of the Aviation Edge API need to be mindful of rate limits, which restrict the number of requests within specific timeframes. Exceeding these limits may lead to temporary blocks or usage restrictions. It's essential to plan requests carefully and efficiently to avoid disruptions in service.
 # * Data Freshness: 
